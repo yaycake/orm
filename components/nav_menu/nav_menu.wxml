@@ -1,0 +1,6 @@
+<!--nav_menu.wxml-->
+<view class = "navMenu">
+  <view class="menuToggleWrap"> <menu_toggle></menu_toggle> </view>
+  
+  <image class="navMenuLogo" src="{{src}}"></image>
+</view>
