@@ -1,11 +1,11 @@
   
-<!--index.wxml-->
-<view class="indexWrapper">
+<!--services.wxml-->
+<view class="servicesWrapper">
   <green_curved_back></green_curved_back>
 
   <nav_menu></nav_menu>
 
-  <image_carousel></image_carousel>
+  <image_carousel itemsArray="{{featuredItems}}"></image_carousel>
 
-  <text>TESTING GIT BUG III</text>
+
 </view>

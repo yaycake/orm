@@ -4,11 +4,10 @@ Component({
    * Component properties
    */
   properties: {
-    items: {
+    itemsArray: {
       type: Array, 
       value: []
     }, 
-    
   },
 
   /**
@@ -23,5 +22,12 @@ Component({
    */
   methods: {
 
+  },
+
+  lifetimes: {
+    attached: function () {
+      console.log("component loaded:")
+      // Executed when the component instance enters the page node tree
+    }
   }
 })

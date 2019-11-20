@@ -8,6 +8,21 @@ Page({
     userInfo: {},
     hasUserInfo: false,
     canIUse: wx.canIUse('button.open-type.getUserInfo'),
+    
+    featuredItems: [
+      {
+        title: "Carousel Item 1", 
+        imageUrl: "../../assets/images/chi_baby.jpg"
+      }, 
+      {
+        title: "Carousel Item 2",
+        imageUrl: "../../assets/images/chi_baby.jpg"
+      },
+      {
+        title: "Carousel Item 3",
+        imageUrl: "../../assets/images/chi_baby.jpg"
+      }
+    ], 
 
   },
   //事件处理函数

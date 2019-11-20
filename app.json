@@ -14,6 +14,7 @@
     "menu_toggle": "./components/menu/menu_toggle/menu_toggle", 
     "nav_menu": "./components/menu/nav_menu/nav_menu", 
     "menu_dropdown":"./components/menu/menu_dropdown/menu_dropdown", 
-    "green_curved_back": "./components/UI/green_curved_back/green_curved_back"
+    "green_curved_back": "./components/UI/green_curved_back/green_curved_back", 
+    "image_carousel": "./components/image_carousel/image_carousel"
   }
 }

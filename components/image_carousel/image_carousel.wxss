@@ -1,7 +1,28 @@
 /* components/image_carousel/image_carousel.wxss */
 
 .imageCarousel{
-  border: 2px dashed orange;
-  height: 400px;
-  width: 100%;
+  margin-top: 1rem;
+  position: absolute;
+  z-index: 2;
+  height: 550rpx;
+  width: 95%;
+  padding-left: 2rem;
+}
+
+.carouselItem swiper-item{
+   /* width: 350rpx;
+  height: 350rpx; */
+  margin: 0 auto;
+
+
+}
+
+.slide-image{
+  width: 550rpx;
+  height: 550rpx;
+  border-radius: 5rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-items: center;
 }
