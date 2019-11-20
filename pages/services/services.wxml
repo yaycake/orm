@@ -1,6 +1,7 @@
+  
 <!--index.wxml-->
 <view class="indexWrapper">
-<green_curved_back></green_curved_back>
+  <green_curved_back></green_curved_back>
 
   <nav_menu></nav_menu>
 
