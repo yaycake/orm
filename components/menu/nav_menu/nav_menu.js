@@ -5,7 +5,7 @@ Component({
    */
   properties: {
     showMenu: {
-      type: Boolean, 
+      type: Boolean,
       value: false
     }
   },
@@ -14,7 +14,7 @@ Component({
    * Component initial data
    */
   data: {
-    src: "../../../assets/logos/orm_white_circles.png", 
+    src: "../../../assets/logos/orm_white_circles.png",
     showMenu: false
   },
 
@@ -29,6 +29,6 @@ Component({
         showMenu: !this.data.showMenu
       })
     }
-    
+
   }
 })
