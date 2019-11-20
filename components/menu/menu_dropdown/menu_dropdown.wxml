@@ -1,0 +1,12 @@
+<!--menu_dropdown.wxml-->
+<view class="menuDropdown">
+  <view class="languagePicker"> 
+    <text>Chinese </text> /  <text> English </text>
+  </view>
+  <view class="menuLinks">
+    <text>View Our Services </text> 
+    <text>Learn About ORM </text> 
+    <text>Visiting Oregon </text> 
+  </view>
+  <image class="menuCurve" src="../../../assets/curve_clip_white.svg"></image>
+</view>

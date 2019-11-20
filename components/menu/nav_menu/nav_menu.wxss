@@ -1,0 +1,21 @@
+/* nav_menu.wxss */
+
+.navMenu {
+  position: relative; 
+  display: flex;
+  align-items: center;
+  width: 100vw;
+  height: 4rem;
+  background-color: #739D8B
+}
+
+.menuToggleWrap{
+  position: absolute;
+  margin-left: 60rpx;
+}
+
+.navMenuLogo {
+  margin: 0 auto;
+  width: 120rpx;
+  height: 120rpx;
+}

@@ -1,0 +1,10 @@
+<!--nav_menu.wxml-->
+<view class = "navMenu">
+  <view class="menuToggleWrap"> 
+    <menu_toggle showMenu = "{{showMenu}}" bindshowMenuToggle="onShowMenuToggle"></menu_toggle>
+  </view>
+  <block wx:if="{{showMenu}}">
+    <menu_dropdown></menu_dropdown>
+  </block>
+  <image class="navMenuLogo" src="{{src}}"></image>
+</view>

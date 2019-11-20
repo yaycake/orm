@@ -1,13 +1,19 @@
 {
   "pages": [
-    "pages/index/index",
+    "pages/services/services",
     "pages/logs/logs"
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle": "black"
+    "navigationBarBackgroundColor": "#597C69",
+    "navigationBarTitleText": "ORM Fertility",
+    "navigationBarTextStyle": "white"
   },
-  "sitemapLocation": "sitemap.json"
+  "sitemapLocation": "sitemap.json", 
+  "usingComponents": {
+    "menu_toggle": "./components/menu/menu_toggle/menu_toggle", 
+    "nav_menu": "./components/menu/nav_menu/nav_menu", 
+    "menu_dropdown":"./components/menu/menu_dropdown/menu_dropdown", 
+    "green_curved_back": "./components/UI/green_curved_back/green_curved_back"
+  }
 }

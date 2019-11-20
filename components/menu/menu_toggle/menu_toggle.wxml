@@ -1,0 +1,6 @@
+<!-- MENU TOGGLE -->
+<view bindtap = "onTap" class="menuToggle">
+  <view class="menuToggleDiv"></view>
+  <view class="menuToggleDiv"></view>
+  <view class="menuToggleDiv"></view>
+</view>

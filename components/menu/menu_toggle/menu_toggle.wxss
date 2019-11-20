@@ -1,0 +1,16 @@
+/* MenuToggle.wxss */
+
+.menuToggle {
+
+  width: 54rpx;
+  height: 54rpx; 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.menuToggleDiv {
+  height: 5rpx;
+  width: 100%;
+  background-color: white;
+}
