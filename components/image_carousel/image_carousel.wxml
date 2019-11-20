@@ -1,0 +1,9 @@
+<swiper class="imageCarousel" indicator-dots="{{indicatorDots}}" next-margin="50px">
+  <block wx:for="{{itemsArray}}" wx:for-item="item" wx:for-index="index" wx:key="{{items}}">
+
+    <swiper-item class="carouselItem">
+      <image src="{{item.imageUrl}}" mode="aspectFill" class="slide-image"/>
+    </swiper-item>
+
+  </block>
+</swiper>

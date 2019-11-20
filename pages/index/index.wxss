@@ -1,0 +1,63 @@
+/**index.wxss**/
+.indexWrapper{
+  position: relative;
+  height: 100vh;
+  color: rgba(26,26,26,1)
+}
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+}
+
+.index_wrapper_top{ 
+  height: 60vh;
+  position: relative;
+}
+
+.index_wrapper_bottom{
+  /* border:1px solid blueviolet; */
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 40vh
+}
+
+.tabbarContainer{
+  display: flex;
+  flex-direction: row;
+  font-size: 25rpx;
+  padding-left: 1rem;
+  font-weight: bolder;
+  margin-top:.5rem;
+
+}
+
+.tabbarContainer > view {
+  margin: 0 1rem; 
+}
+
+
+.activeTab{
+  border-bottom: 2px solid #739D8B;
+}
+.inactiveTab{
+  border-bottom: 2px solid transparent;
+}
+
+

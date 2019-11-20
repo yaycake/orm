@@ -8,6 +8,23 @@ Page({
     userInfo: {},
     hasUserInfo: false,
     canIUse: wx.canIUse('button.open-type.getUserInfo'),
+    
+    featuredItems: [
+      {
+        title: "Carousel Item 1", 
+        imageUrl: "../../assets/images/chi_baby.jpg"
+      }, 
+      {
+        title: "Carousel Item 2",
+        imageUrl: "../../assets/images/chi_baby.jpg"
+      },
+      {
+        title: "Carousel Item 3",
+        imageUrl: "../../assets/images/chi_baby.jpg"
+      }
+    ], 
+
+    showServices: true
 
   },
   //事件处理函数
@@ -50,6 +67,14 @@ Page({
     this.setData({
       userInfo: e.detail.userInfo,
       hasUserInfo: true
+    })
+  }, 
+
+  onSwitchMenuIndex: function (e) {
+    console.log("On Switch Menu Index:" + JSON.stringify(e))
+
+    this.setData({
+      showServices: !this.data.showServices
     })
   }
 })

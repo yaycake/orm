@@ -1,0 +1,10 @@
+/* components/landing_indices/services_index/services_index.wxss */
+
+.servicesIndex{
+  display: flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  justify-content:center;
+  margin-top:1rem;
+
+}

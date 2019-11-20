@@ -1,0 +1,18 @@
+/* components/landing_indexes/index_list/index_list.wxss */
+
+.indexListWrapper {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.indexList {
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: left;
+  width:85%;
+}

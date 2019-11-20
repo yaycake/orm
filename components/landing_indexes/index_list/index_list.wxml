@@ -1,0 +1,9 @@
+<!--components/landing_indexes/index_list/index_list.wxml-->
+<view class="indexListWrapper">
+  <view class="indexList">
+    <block wx:for="{{indexArray}}" wx:for-item="item" wx:for-index="index" wx:key="{{item}}">
+      <index_icon title="{{item.title}}" icon="{{item.icon}}"></index_icon>
+    </block>
+  </view>
+</view>
+
