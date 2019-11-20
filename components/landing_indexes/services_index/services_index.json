@@ -1,7 +1,1 @@
-{
-  "component": true,
-  "usingComponents": {
-    "index_icon": "../index_icon/index_icon",
-    "index_list": "../index_list/index_list"
-  }
-}
+{}

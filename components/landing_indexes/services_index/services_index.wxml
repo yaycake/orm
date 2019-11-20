@@ -1,5 +1,0 @@
-<!--components/landing_indices/services_index/services_index.wxml-->
-
-
-<index_list indexArray = "{{indexArray}}">
-</index_list>

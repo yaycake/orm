@@ -1,3 +1,0 @@
-<!--components/landing_indices/about_index/about_index.wxml-->
-<index_list indexArray = "{{indexArray}}">
-</index_list>
