@@ -1,4 +1,4 @@
-// nav_menu.js
+// components/UI/green_curved_back/green_curved_back.js
 Component({
   /**
    * Component properties
@@ -11,7 +11,7 @@ Component({
    * Component initial data
    */
   data: {
-    src: "../../assets/logo/orm_white_circles.png"
+
   },
 
   /**

@@ -3,21 +3,19 @@
 .navMenu {
   position: relative; 
   display: flex;
-
+  align-items: center;
   width: 100vw;
-  height: 3rem;
-  background-color: purple
+  height: 4rem;
+  background-color: #739D8B
 }
 
 .menuToggleWrap{
   position: absolute;
-  left: 1rem;
-  top: 0;
+  margin-left: 60rpx;
 }
 
 .navMenuLogo {
   margin: 0 auto;
-  width: 100rpx;
-  height: 100rpx;
-  border:1px solid blue; 
+  width: 120rpx;
+  height: 120rpx;
 }

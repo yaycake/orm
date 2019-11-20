@@ -1,4 +1,4 @@
-//menu_toggle.js
+// menu_dropdown.js
 Component({
   /**
    * Component properties

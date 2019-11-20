@@ -1,0 +1,5 @@
+<!--components/UI/green_curved_back/green_curved_back.wxml-->
+
+<view class="greenBackdrop">
+  <image class="bottomCurve" src="../../../assets/curve_clip_white.svg"></image>
+</view>
