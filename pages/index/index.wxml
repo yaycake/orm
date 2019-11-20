@@ -1,0 +1,20 @@
+<!--index.wxml-->
+
+<view class="indexWrapper">
+  <green_curved_back></green_curved_back>
+
+  <nav_menu></nav_menu>
+
+  <image_carousel itemsArray="{{featuredItems}}"></image_carousel>
+
+  <block wx:if="{{menuSwitch == 'services' }}">
+    <services_index></services_index>
+
+    <block wx:else>
+
+    <about_index></about_index>
+  </block>
+
+
+
+</view>
