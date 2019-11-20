@@ -22,7 +22,7 @@ Component({
    */
   methods: {
 
-    onTap: function () {
+    onTap: function (e) {
       var myEventDetail = {} // detail object, provided to the event monitoring function
       var myEventOption = {} // Event triggering options
       this.triggerEvent('showMenuToggle', myEventDetail, myEventOption)

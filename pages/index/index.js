@@ -24,7 +24,7 @@ Page({
       }
     ], 
 
-    menuSwitch: "services"
+    showServices: true
 
   },
   //事件处理函数
@@ -67,6 +67,14 @@ Page({
     this.setData({
       userInfo: e.detail.userInfo,
       hasUserInfo: true
+    })
+  }, 
+
+  onSwitchMenuIndex: function (e) {
+    console.log("On Switch Menu Index:" + JSON.stringify(e))
+
+    this.setData({
+      showServices: !this.data.showServices
     })
   }
 })

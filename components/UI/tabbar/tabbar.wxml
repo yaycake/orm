@@ -1,0 +1,6 @@
+<!--components/UI/tabbar/tabbar.wxml-->
+<view class="tabbarContainer">
+  {{showServices}}
+  <slot name="first"></slot>
+  <slot name="second"></slot>
+</view>

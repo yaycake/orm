@@ -1,20 +1,41 @@
 <!--index.wxml-->
 
 <view class="indexWrapper">
-  <green_curved_back></green_curved_back>
+ 
 
-  <nav_menu></nav_menu>
+  <view class="index_wrapper_top"> 
+    <green_curved_back></green_curved_back>
+    <nav_menu></nav_menu>
+    <image_carousel itemsArray="{{featuredItems}}"></image_carousel>
+  </view>
 
-  <image_carousel itemsArray="{{featuredItems}}"></image_carousel>
+  <view class="index_wrapper_bottom">
 
-  <block wx:if="{{menuSwitch == 'services' }}">
-    <services_index></services_index>
+    
 
-    <block wx:else>
+    <view class="tabbarContainer" showServices="{{showServices}}">
+      <view data-label="services_index" slot="first"
+        class = "{{showServices ? 'activeTab' : 'inactiveTab' }}"
+        bindtap="onSwitchMenuIndex"
+        >Our Services</view>
+      <view data-label="about_index" slot="second"
+        class = "{{!showServices ? 'activeTab' : 'inactiveTab' }}"
+        bindtap="onSwitchMenuIndex"
+        >About ORM</view>
+    </view>
 
-    <about_index></about_index>
-  </block>
+    <block wx:if="{{showServices}}">
+      <services_index></services_index>
+    </block>
+      <block wx:else>
+        <about_index></about_index>
+    </block>
 
 
+  </view>
+
+
+
+  
 
 </view>

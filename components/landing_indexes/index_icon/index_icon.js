@@ -4,10 +4,14 @@ Component({
    * Component properties
    */
   properties: {
-    indexLink: {
-      type: Array, 
-      value: []
-    }
+   title: {
+     type: String, 
+     value: ''
+   },
+   icon: {
+     type: String, 
+     value: ''
+   }
   },
 
   /**

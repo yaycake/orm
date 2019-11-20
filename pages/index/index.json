@@ -1,6 +1,7 @@
 {
  "usingComponents": {
-    "about_index": "../../components/landing_indexes/about_index",
-    "services_index": "../../components/landing_indexes/services_index"
+    "about_index": "../../components/landing_indexes/about_index/about_index",
+    "services_index": "../../components/landing_indexes/services_index/services_index", 
+    "index_list":"../../components/landing_indexes/index_list/index_list"
   }
 }

@@ -1,10 +1,11 @@
 /* components/image_carousel/image_carousel.wxss */
 
 .imageCarousel{
-  margin-top: 1rem;
+  margin-top: .5rem;
   position: absolute;
+  bottom: 1rem;
   z-index: 2;
-  height: 550rpx;
+  height: 525rpx;
   width: 95%;
   padding-left: 2rem;
 }
@@ -13,13 +14,14 @@
    /* width: 350rpx;
   height: 350rpx; */
   margin: 0 auto;
+  box-shadow: 2px 2px 8px rgba(0,0,0,.2)
 
 
 }
 
 .slide-image{
-  width: 550rpx;
-  height: 550rpx;
+  width: 525rpx;
+  height: 525rpx;
   border-radius: 5rpx;
   display: flex;
   flex-direction: row;
