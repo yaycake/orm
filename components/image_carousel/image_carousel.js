@@ -4,7 +4,11 @@ Component({
    * Component properties
    */
   properties: {
-
+    items: {
+      type: Array, 
+      value: []
+    }, 
+    
   },
 
   /**

@@ -1,2 +1,10 @@
 <!--components/image_carousel/image_carousel.wxml-->
-<text>components/image_carousel/image_carousel.wxml</text>
+<swiper class="imageCarousel" indicator-dots="{{indicatorDots}}">
+ 
+  <block wx:for="{{myStickers}}" wx:for-item="sticker" wx:for-index="index" wx:key="{{stickers}}">
+    <swiper-item>
+      <image src="{{item.imageUrl}}" class="slide-image" width="355rpx" height="355rpx" style="background-color: blue"/>
+    </swiper-item>
+  </block>
+
+</swiper>
